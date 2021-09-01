@@ -1,0 +1,21 @@
+version: "3"
+services:
+  clustered-data:
+    image: clustered-data
+    ports:
+      - "8099:8099"
+    networks:
+      - clusus_db
+    depends_on:
+      - mysqldb
+ 
+  mysqldb:
+    image: mysql:8
+    networks:
+      - clusus_db
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=root  
+
+networks:
+  clusus_db:
