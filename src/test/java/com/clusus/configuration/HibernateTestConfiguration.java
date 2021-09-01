@@ -1,4 +1,4 @@
-package com.progresssoft.configuration;
+package com.clusus.configuration;
 
 import java.util.Properties;
 

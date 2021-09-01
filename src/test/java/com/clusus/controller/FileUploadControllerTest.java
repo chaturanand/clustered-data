@@ -1,4 +1,4 @@
-package com.progresssoft.controller;
+package com.clusus.controller;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.nullValue;

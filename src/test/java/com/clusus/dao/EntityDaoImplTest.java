@@ -1,4 +1,4 @@
-package com.progresssoft.dao;
+package com.clusus.dao;
 
 import javax.sql.DataSource;
 
@@ -11,7 +11,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.testng.AbstractTransactionalTestNGSpringContextTests;
 import org.testng.annotations.BeforeMethod;
 
-import com.progresssoft.configuration.HibernateTestConfiguration;
+import com.clusus.configuration.HibernateTestConfiguration;
 
 
 @ContextConfiguration(classes = { HibernateTestConfiguration.class })
